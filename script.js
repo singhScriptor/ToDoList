@@ -62,7 +62,7 @@ async function doneDetails(details,list) {
         details.completed=true
         localStorage.setItem(details.userId,JSON.stringify(details))
         
-        list.innerHTML=` work :${details.title}<br>Description : ${details.description} <button type="button" id='delete' class="btn btn-danger delete m-2 p-3px">Delete</button>`
+        list.innerHTML=` work : ${details.title}<br>Description : ${details.description} <button type="button" id='delete' class="btn btn-danger delete p-2px">Delete</button>`
         const doneList=document.getElementById("doneList")
         doneList.appendChild(list)
 

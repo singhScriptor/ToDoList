@@ -121,12 +121,12 @@ a:hover{
     color: #2c3e50;
 }
 
-#edit{
+#done{
     color: white;
     font-size: small;
 }
 #div2{
-    color: black;
+    color: white;
     overflow-y: scroll;
     scrollbar-width: none;
     height: 30%;
@@ -134,7 +134,7 @@ a:hover{
     
 }
 #div3{
-    color: black;
+    color:white;
     overflow-y: scroll;
     scrollbar-width: none;
     min-height: 30%;
