@@ -1,0 +1,208 @@
+html body{
+    height: 100vh;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    background-color: #4d6e8e; /* Dark blue background for a modern look */
+    color: #ecf0f1; /* Light text color for contrast */
+}
+
+#h1, #h2, #h3 {
+    text-align: center;
+    background-color: #34495e; /* Dark greyish-blue background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for modern look */
+    padding: 10px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+#h1:hover {
+    box-shadow: 0 8px 16px rgba(241, 196, 15, 0.5); /* Yellow shadow on hover */
+}
+
+#h2:hover {
+    box-shadow: 0 8px 16px rgba(231, 76, 60, 0.5); /* Red shadow on hover */
+}
+
+#h3:hover {
+    box-shadow: 0 8px 16px rgba(52, 152, 219, 0.5); /* Blue shadow on hover */
+}
+
+main{
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+}
+
+form {
+    box-shadow: 0 4px 8px rgba(0, 68, 128, 0.2); /* Soft blue shadow */
+    padding: 20px;
+    width: 50%;
+    height: 85vh;
+    margin-right: 20px;
+    color: #3498db; /* Light blue text color */
+    background-color: #ecf0f1; /* Light grey background for form */
+    border-radius: 8px; /* Rounded corners */
+    justify-content: space-between;
+}
+
+#description {
+    padding: 10px;
+}
+
+aside {
+    box-shadow: 0 4px 8px rgba(103, 185, 208, 0.701); /* Soft shadow */
+    padding: 10px;
+    width: 50%;
+    color: #fff;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0;
+    background-color: #86b0a6; /* Dark greyish-blue background */
+    border-radius: 8px; /* Rounded corners */
+}
+
+#submit {
+    padding: 10px;
+    width: 30%;
+    font-size: large;
+    margin-top: 30px;
+    background-color: #3498db; 
+    color: #fff; 
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    cursor:pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+#submit:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 5px 5px 20px rgb(232, 235, 234); /* Soft shadow */
+    background-color: #1abc9c; /* Teal background for a fresh look */
+    padding: 5px;
+    
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    border: none;
+}
+
+a {
+    color: #fff;
+    font-size: 23px;
+    margin-left: 20px;
+}
+a:hover{
+    color:black;
+}
+
+#copyRight {
+    color: #fff;
+    font-size: small;
+    padding: 10px;
+    align-self: flex-end; /* Align at the end of the flex container */
+}
+#copyRight:hover{
+    color: #2c3e50;
+}
+
+#edit{
+    color: white;
+    font-size: small;
+}
+#div2{
+    color: black;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    height: 30%;
+    margin: 0;
+    
+}
+#div3{
+    color: black;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    min-height: 30%;
+}
+#delete{
+    font-size: small;
+}
+
+@media (max-width: 540px) {
+    main {
+        flex-direction: column;
+        width: 100%;
+    }
+    form {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    aside {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    #h1, #h2, #h3 {
+        width: 100%;
+        font-size: x-small;
+    }
+    footer {
+        width: 110%;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        
+       
+    }
+    .social-links {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    a {
+        font-size: medium;
+        margin-right: 0;
+    }
+    #copyRight {
+        font-size: x-small;
+        flex-direction:column ;
+        justify-content: center;
+    }
+    #submit {
+        font-size: x-small;
+        padding: 10px;
+        width: 60%;
+    }
+    #pendingList{
+        font-size: small;
+        width: 100%;
+        height: auto;
+    }
+    #edit{
+        font-size: x-small;
+        padding: 3px;
+        color: white;
+    }
+    #delete{
+        font-size: x-small;
+        padding: 3px;
+
+    }
+}
+
