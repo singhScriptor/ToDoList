@@ -2,6 +2,12 @@
 
 A simple and efficient Todo List application that allows users to add, mark as done, and delete tasks. The application uses local storage to save tasks and CRUD operations to manage tasks through an API.
 
+## Demo
+
+Check out the live demo of the Todo List application: [Todo List Demo](https://singhScriptor.github.io/ToDoList)
+
+
+
 ## Features
 
 - Add new tasks with a title and description.
@@ -16,9 +22,6 @@ A simple and efficient Todo List application that allows users to add, mark as d
 - **Done List**: When a task is marked as done, its `completed` status is updated to `true`, it is moved to the Done list, and the status is also updated on the server via an API call.
 - **CRUD Operations**: Create, Read, Update, and Delete tasks using `axios` for API calls.
 
-## Demo
-
-Check out the live demo of the Todo List application: [Todo List Demo](https://singhScriptor.github.io/ToDoList)
 
 ## Getting Started
 
